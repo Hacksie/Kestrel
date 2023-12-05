@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed40ef2fb67c6ef4792cd5e4b26ef20c, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  skipIntro: 0
+  maxLevels: 5
+  moveSpeed: 10
+  dashSpeed: 10
+  jumpSpeed: 5
+  groundDistance: 0.4
+  gravityMultiplier: 2.5
+  kiteMultiplier: 0.75
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 55
+  minYAngle: -85
+  maxYAngle: 85
+  deadY: 40
